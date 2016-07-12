@@ -1,6 +1,6 @@
 {
   "name": "hermes-socketio",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Socket.IO adapter for HermesJS",
   "main": "socketio.js",
   "repository": "https://github.com/hitchhq/hermes-socketio",
@@ -13,5 +13,9 @@
     "hermesjs"
   ],
   "author": "Francisco Mendez Vilas (fmvilas@gmail.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hermes-message": "~0.0.2",
+    "socketio": "^1.0.0"
+  }
 }

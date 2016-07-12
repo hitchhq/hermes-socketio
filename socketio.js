@@ -1,5 +1,5 @@
 const socketio = require('socket.io');
-const HermesMessage = require('../lib/message');
+const HermesMessage = require('hermes-message');
 
 function init (settings) {
   return function (hermes) {
